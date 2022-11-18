@@ -1,7 +1,6 @@
-package fastcampus.service;
+package springpractice.service;
 
-import fastcampus.logic.BubbleSort;
-import fastcampus.logic.JavaSort;
+import springpractice.logic.BubbleSort;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
@@ -9,7 +8,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 
 class SortServiceTest{
-    private  SortService sut = new SortService(new BubbleSort<>());
+    private SortService sut = new SortService(new BubbleSort<>());
 
     @Test
     void test(){

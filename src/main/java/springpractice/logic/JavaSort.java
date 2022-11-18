@@ -1,10 +1,13 @@
-package fastcampus.logic;
+package springpractice.logic;
 
+
+import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+@Component
 public class JavaSort<T extends Comparable<T>> implements Sort<T>{
 
     @Override

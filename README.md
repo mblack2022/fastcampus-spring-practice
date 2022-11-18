@@ -1,1 +1,1 @@
-# fastcampus-spring-practice
+# springpractice-spring-practice
